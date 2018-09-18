@@ -1,4 +1,6 @@
 #!/bin/bash
 clear;
-echo "hello world";
+echo -n "digite o seu nome";
+read nome;
+echo "hello "$nome;
 exiti;
